@@ -139,6 +139,16 @@
   <p>Footer Text</p>
 </footer>
 
+<script type="text/javascript">
+  var myHilitor;
+  document.addEventListener("DOMContentLoaded", function(e) {
+    myHilitor = new Hilitor2("playground");
+    myHilitor.setMatchType("left");
+  }, false);
+  document.getElementById("keywords").addEventListener("keyup", function(e) {
+    myHilitor.apply(this.value);
+  }, false);
+</script>
 </body>
 </html>
 
