@@ -3,7 +3,7 @@ var config = {
     authDomain: "lmaoooooooo-8951a.firebaseapp.com",
     databaseURL: "https://lmaoooooooo-8951a.firebaseio.com",
     projectId: "lmaoooooooo-8951a",
-    storageBucket: "",
+    storageBucket: "lmaoooooooo-8951a.appspot.com",
     messagingSenderId: "584488340793"
 };
 
